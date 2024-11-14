@@ -77,10 +77,10 @@ const Navbar = () => {
                <p className='text-white hover:text-purple-800/90 my-4'>CONTACT ME</p>
              </NavLink>
 
-             <button className=' cursor-pointer bg-gradient-to-r
+             <Link to={'/connectMe'}><button className=' cursor-pointer bg-gradient-to-r
          from-green-400 to-blue-500 rounded-full py-2 px-4 my-4 
          text-md text-white hover:text-gray-200/80 transition-transform duration-300 
-         hover:scale-105'>Connect Me</button>
+         hover:scale-105'>Connect Me</button></Link>
                  </nav>
         )}
     
