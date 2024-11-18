@@ -63,7 +63,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className=" mt-[8rem] flex justify-between text-center">
+            <div className=" mt-[12rem] flex justify-between text-center">
               <div>
                 <h3 className=" text-base font-bold hidden md:inline 
         cursor-pointer text-transparent bg-clip-text 
@@ -90,13 +90,12 @@ const About = () => {
                 </h3>
                 <p>Happy Clients</p>
               </div>
-
-
-
             </div>
           </div>
         </div>
       </div>
+
+
     </div>
   
   )

@@ -10,30 +10,29 @@ const projects = [
     id: 1,
     name: "Login Form",
     technologies: "Reactjs Tailwindcss",
-    image: employeeMSImage,
+    image: 'https://t4.ftcdn.net/jpg/04/08/91/77/360_F_408917733_WuJGcub0icxaQ7P266wMFK1oCWoB5fZR.jpg',
     github: "https://github.com/WebDev-47/Login-formtest",
   },
   {
     id: 2,
     name: "E-commerce website",
     technologies: "React js",
-    image: employeeMSImage,
+    image: 'https://media.istockphoto.com/id/1428709516/photo/shopping-online-woman-hand-online-shopping-on-laptop-computer-with-virtual-graphic-icon.jpg?s=612x612&w=0&k=20&c=ROAncmFL4lbSQdU4VOhyXu-43ngzfEqHE5ZZAw5FtYk=',
     github: "https://github.com/WebDev-47/Webzn",
   },
   {
     id: 3,
     name: "Portfolio",
     technologies: "Reactjs Tailwindcss",
-    image: employeeMSImage,
+    image: 'https://media.licdn.com/dms/image/D4D12AQEZths38-N2dg/article-cover_image-shrink_720_1280/0/1709734306401?e=2147483647&v=beta&t=9l7pK3lRN00IcbwvUvxg2j7JEr-jlup2SRWAGTgvLCk',
     github: "https://github.com/WebDev-47/DevCel-Portfolio",
   },
-
   {
     id: 4,
     name: "Portfolio II",
     technologies: "Reactjs, Tailwindcss",
-    image: portfolioImg.jpg,
-    github:
+    image: "https://img.lovepik.com/photo/45015/7638.jpg_wh860.jpg",
+    github: "https://github.com/WebDev-47/Portfolio-II"
   }
 ];
 
