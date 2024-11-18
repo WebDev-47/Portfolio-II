@@ -7,7 +7,8 @@ import { IoPersonCircleOutline } from "react-icons/io5";
 const Hero = () => {
   return (
     <div>
-      <div className=' md:w-[12rem] h-[3rem] ml-[2rem] rounded-full flex space-x-4 items-center justify-start'>
+      <div className=' md:w-[12rem] absolute right-0 h-[3rem] mr-[1.5rem] rounded-full 
+      flex space-x-4 items-center justify-start'>
       <IoPersonCircleOutline className='text-gray-100 w-[2rem] h-[2rem] mx-2 ' />
       <p className=' text-gray-100'>Hello, DevCel!</p>
       </div>
