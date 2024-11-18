@@ -1,5 +1,6 @@
 import React from 'react'
 import DevCelo from '../assets/DevCelo.png'
+import { NavLink } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -34,7 +35,7 @@ const Hero = () => {
       <div className=' border p-2 rounded-lg items-center flex mb-5'>
        <p className='hover:text-gray-400/90 ml-3 text-gray-200'>Resume</p>
        <button className=' cursor-pointer text-gray-100 bg-gradient-to-r
-       from-green-500 to-blue-500 text-sm ml-[6rem] py-1 px-1.5 rounded-lg
+       from-green-500 to-blue-500 text-sm ml-[5.8rem] py-1 px-1.5 rounded-lg
         transition-transform duration-300 hover:scale-105 '><a href="/src/Documents/Resume.pdf" download>Download</a></button>
       </div>
 
@@ -49,7 +50,7 @@ const Hero = () => {
        <p className='hover:text-gray-400/90 ml-3 text-gray-200'>Degree</p>
        <button className=' cursor-pointer text-gray-100 bg-gradient-to-r
        from-green-500 to-blue-500 text-sm ml-[6rem] py-1 px-1.5 rounded-lg
-        transition-transform duration-300 hover:scale-105 '>Download</button>
+        transition-transform duration-300 hover:scale-105 '><a href="https://coreldrawdesign.com/resources/previews/preview-error-404-page-not-found-page-vector-template-1629006906.jpg">Download</a></button>
       </div>
 
     
