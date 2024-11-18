@@ -23,7 +23,7 @@ const Navbar = () => {
 
     <nav className=' flex  gap-[3rem] text-md justify-between items-center px-4 '>
 
-        <ul className='bg-gray-700 rounded-full py-3 px-[4rem] gap-[3rem] hidden sm:flex items-center'>
+        <ul className='bg-gradient-to-b from-gray-600 to-green- rounded-full py-3 px-[4rem] gap-[3rem] hidden sm:flex items-center'>
         <NavLink to="/" className="flex-col items-center gap-1">
           <p className='text-gray-100 hover:text-gray-400/90'>HOME</p>
           <hr className=" w-4/4 bg-gray-700 h-[1.5px] hidden " />

@@ -1,11 +1,17 @@
 import React from 'react'
 import DevCelo from '../assets/DevCelo.png'
 import { NavLink } from 'react-router-dom'
+import { IoPersonCircleOutline } from "react-icons/io5";
+
 
 const Hero = () => {
   return (
     <div>
-       <div className=" text-white py-20">
+      <div className=' md:w-[12rem] h-[3rem] ml-[2rem] rounded-full flex space-x-4 items-center justify-start'>
+      <IoPersonCircleOutline className='text-gray-100 w-[2rem] h-[2rem] mx-2 ' />
+      <p className=' text-gray-100'>Hello, DevCel!</p>
+      </div>
+     <div className=" text-white py-20">
     <div className="container mx-auto px-8 md:px-16 lg:px-24">
       <h2 className="text-4xl font-bold text-center mb-6 text-gray-300">My Portfolio<hr className="mt-3 animate-pulse"/></h2>
       
