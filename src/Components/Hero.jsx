@@ -25,39 +25,29 @@ const Hero = () => {
     </div>
     </div>
 
-<div className=' md:flex   top-[30rem]  absolute md:top-[5rem] md:ml-10'>
-    <div className=' bg-gray-950  w-[20rem] h-[20rem] ml-[8rem] absolute top-[23rem] rounded-xl '>
-    <div className=' border  w-[19rem] h-[18.2rem]  relative top-2 left-1.5 rounded-xl '>
-      <div className=' mx-5'>
-      <p className=' text-center cursor-pointer text-transparent bg-clip-text bg-gradient-to-r
-       from-green-500 to-blue-500 text-md font-bold mt-4 mb-[2rem] '> Qualifications/Resume <hr className='w-[11rem] ml-[2.6rem]' /></p> 
-      
-      <div className=' border p-2 rounded-lg items-center flex mb-5'>
+<div className=' md:flex md:space-x-10 md:justify-center items-center justify-items-center space-y-10 '>
+      <div className='  w-[20rem] p-2 rounded-lg items-center flex mb-5  bg-gray-600'>
        <p className='hover:text-gray-400/90 ml-3 text-gray-200'>Resume</p>
        <button className=' cursor-pointer text-gray-100 bg-gradient-to-r
-       from-green-500 to-blue-500 text-sm ml-[5.8rem] py-1 px-1.5 rounded-lg
+       from-green-500 to-blue-500 text-sm ml-[9rem] py-1 px-1.5 rounded-lg
         transition-transform duration-300 hover:scale-105 '><a href="/src/Documents/Resume.pdf" download>Download</a></button>
       </div>
 
-      <div className=' border p-2 rounded-lg items-center flex mb-5'>
+      <div className='  w-[20rem] p-2 rounded-lg items-center flex mb-5  bg-gray-600'>
        <p className='hover:text-gray-400/90 ml-3 text-gray-200'>I.T Cert</p>
        <button className=' cursor-pointer text-gray-100 bg-gradient-to-r
-       from-green-500 to-blue-500 text-sm ml-[6rem] py-1 px-1.5 rounded-lg
-        transition-transform duration-300 hover:scale-105 '><a href="/src/assets/Portfolio_img.JPG" download>Download</a></button>
+       from-green-500 to-blue-500 text-sm ml-[9rem] py-1 px-1.5 rounded-lg
+        transition-transform duration-300 hover:scale-105 '><a href="/src/assets/IT.png" download>Download</a></button>
       </div>
 
-      <div className=' border p-2 rounded-lg items-center flex mb-5'>
+      <div className='  w-[20rem] p-2 rounded-lg items-center flex mb-5  bg-gray-600'>
        <p className='hover:text-gray-400/90 ml-3 text-gray-200'>Degree</p>
        <button className=' cursor-pointer text-gray-100 bg-gradient-to-r
-       from-green-500 to-blue-500 text-sm ml-[6rem] py-1 px-1.5 rounded-lg
-        transition-transform duration-300 hover:scale-105 '><a href="https://coreldrawdesign.com/resources/previews/preview-error-404-page-not-found-page-vector-template-1629006906.jpg">Download</a></button>
+       from-green-500 to-blue-500 text-sm ml-[9rem] py-1 px-1.5 rounded-lg
+        transition-transform duration-300 hover:scale-105 '><a href="/src/assets/portfolioImg.JPG" download>Download</a></button>
       </div>
-
+</div>
     
-      </div>
-      </div>
-    </div>
-    </div>
     </div>
   )
 }
