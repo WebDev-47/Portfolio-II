@@ -23,7 +23,8 @@ const Hero = () => {
       </div>
     </div>
     </div>
-6<div className=' flex items-center justify-items-center top-[6rem] left-10 absolute'>
+
+<div className=' md:flex   top-[30rem]  absolute md:top-[5rem] md:ml-10'>
     <div className=' bg-gray-950  w-[20rem] h-[20rem] ml-[8rem] absolute top-[23rem] rounded-xl '>
     <div className=' border  w-[19rem] h-[18.2rem]  relative top-2 left-1.5 rounded-xl '>
       <div className=' mx-5'>

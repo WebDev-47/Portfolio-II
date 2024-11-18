@@ -1,12 +1,16 @@
-import React, { useState, CloseisOpen } from 'react'
+import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
 
-    const [isopen, setIsopen] = useState(null);
+    const [isopen, setIsopen] = useState(false);
 
    const CloseisOpen= () =>{
+    setIsopen(!isopen);
+   }
+   
+   const isOpen= () =>{
     setIsopen(!isopen);
    }
     
@@ -54,14 +58,14 @@ const Navbar = () => {
        
         
         <div className=' md:hidden text-2xl text-gray-100 '>
-            <button onClick={()=>setIsopen(!isopen)}>
-                {!isopen ? <FaTimes/> : <FaBars/>}
+            <button onClick={isOpen}>
+                {isopen ? <FaTimes/> : <FaBars/>}
             </button>
         </div>
         </div>
-        {!isopen && (
+        {isopen && (
              <nav className='flex-col gap-5 text-sm px-[3rem] bg-black  
-              h-[16rem] md:hidden '>
+              h-[16rem] md:hidden'>
              <NavLink to="/" className="flex-col items-center gap-1">
                <p onClick={CloseisOpen} className='text-white hover:text-purple-800/90 '>HOME</p>
              </NavLink>
@@ -81,7 +85,7 @@ const Navbar = () => {
                <p onClick={CloseisOpen} className='text-white hover:text-purple-800/90 my-4'>CONTACT ME</p>
              </NavLink>
 
-             <Link to={'/connectMe'}><button className=' cursor-pointer bg-gradient-to-r
+             <Link to={'/connectMe'}><button onClick={CloseisOpen} className=' cursor-pointer bg-gradient-to-r
          from-green-400 to-blue-500 rounded-full py-2 px-4 my-4 
          text-md text-white hover:text-gray-200/80 transition-transform duration-300 
          hover:scale-105'>Connect Me</button></Link>
