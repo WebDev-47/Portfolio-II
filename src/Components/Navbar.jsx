@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState, CloseisOpen } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
 
-    const [isopen, setIsopen] = useState(false);
+    const [isopen, setIsopen] = useState(null);
+
+   const CloseisOpen= () =>{
+    setIsopen(!isopen);
+   }
     
   return (
     <div>
@@ -59,22 +63,22 @@ const Navbar = () => {
              <nav className='flex-col gap-5 text-sm px-[3rem] bg-black  
               h-[16rem] md:hidden '>
              <NavLink to="/" className="flex-col items-center gap-1">
-               <p className='text-white hover:text-purple-800/90 '>HOME</p>
+               <p onClick={CloseisOpen} className='text-white hover:text-purple-800/90 '>HOME</p>
              </NavLink>
-             <NavLink to="/about" className="flex-col items-center gap-1">
-               <p className='text-white hover:text-purple-800/90 my-4'>ABOUT</p>
-             </NavLink>
-     
-             <NavLink to="/services" className="flex-col items-center gap-1">
-               <p className='text-white hover:text-purple-800/90 my-4'>SERVICES</p>
+             <NavLink  to="/about" className="flex-col items-center gap-1">
+               <p onClick={CloseisOpen} className='text-white hover:text-purple-800/90 my-4'>ABOUT</p>
              </NavLink>
      
-             <NavLink to="/projects" className="flex-col items-center gap-1">
-               <p className='text-white hover:text-purple-800/90 my-4'>PROJECTS</p>
+             <NavLink  to="/services" className="flex-col items-center gap-1">
+               <p onClick={CloseisOpen} className='text-white hover:text-purple-800/90 my-4'>SERVICES</p>
              </NavLink>
      
-             <NavLink to="/contact" className="flex-col items-center gap-1">
-               <p className='text-white hover:text-purple-800/90 my-4'>CONTACT ME</p>
+             <NavLink  to="/projects" className="flex-col items-center gap-1">
+               <p onClick={CloseisOpen} className='text-white hover:text-purple-800/90 my-4'>PROJECTS</p>
+             </NavLink>
+     
+             <NavLink  to="/contact" className="flex-col items-center gap-1">
+               <p onClick={CloseisOpen} className='text-white hover:text-purple-800/90 my-4'>CONTACT ME</p>
              </NavLink>
 
              <Link to={'/connectMe'}><button className=' cursor-pointer bg-gradient-to-r

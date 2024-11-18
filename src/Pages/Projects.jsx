@@ -27,6 +27,14 @@ const projects = [
     image: employeeMSImage,
     github: "https://github.com/WebDev-47/DevCel-Portfolio",
   },
+
+  {
+    id: 4,
+    name: "Portfolio II",
+    technologies: "Reactjs, Tailwindcss",
+    image: portfolioImg.jpg,
+    github:
+  }
 ];
 
 const Projects = () => {
