@@ -2,20 +2,22 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link, NavLink } from 'react-router-dom'
 
+
+
 const Navbar = () => {
 
     const [isopen, setIsopen] = useState(false);
 
-   const CloseisOpen= () =>{
+   const CloseisOpen = () =>{
     setIsopen(!isopen);
    }
    
-   const isOpen= () =>{
+   const isOpen = () =>{
     setIsopen(!isopen);
    }
     
   return (
-    <div>
+    <div className=' sticky top-0 z-10'>
         <div className=' bg-gray-900 flex justify-between items-center h-[7rem] 
               md:px-[2rem] px-[3rem] rounded-b-xl py-[4rem] '>
             <Link to={'/'}><div className=' cursor-pointer text-transparent bg-clip-text bg-gradient-to-tr
@@ -23,7 +25,8 @@ const Navbar = () => {
 
     <nav className=' flex  gap-[3rem] text-md justify-between items-center px-4 '>
 
-        <ul className='bg-gradient-to-b from-gray-600 to-green- rounded-full py-3 px-[4rem] gap-[3rem] hidden sm:flex items-center'>
+        <ul className='bg-gradient-to-b from-gray-600 to-green- rounded-full py-3 px-[4rem] gap-[3rem] 
+        hidden sm:flex items-center shadow-sm '>
         <NavLink to="/" className="flex-col items-center gap-1">
           <p className='text-gray-100 hover:text-gray-400/90'>HOME</p>
           <hr className=" w-4/4 bg-gray-700 h-[1.5px] hidden " />
@@ -54,7 +57,10 @@ const Navbar = () => {
          from-green-400 to-blue-500 rounded-full py-3 px-4 text-md text-white 
          transition-transform duration-300 hover:scale-105'>
           Connect Me</button></Link>
+        
         </nav>
+      
+       
        
         
         <div className=' md:hidden text-2xl text-gray-100 '>
@@ -91,7 +97,7 @@ const Navbar = () => {
          hover:scale-105'>Connect Me</button></Link>
                  </nav>
         )}
-    
+ 
     </div>
   )
 }
