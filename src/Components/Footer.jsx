@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="bg-red-900 text-gray-200">
     <div className="container mx-auto py-7 px-[3rem]">
       <div className=" grid md:grid-cols-10 grid-cols-1 gap-[5rem]">
-        <div className=" lg:col-span-2 col-span-12 ">
+        <div className=" lg:col-span-2 col-span-5 ">
         
           <Link to={'/'}><div className=' cursor-pointer text-transparent bg-clip-text bg-gradient-to-tr
              from-green-400 to-blue-500 font-bold text-3xl '>DevCel</div></Link>
