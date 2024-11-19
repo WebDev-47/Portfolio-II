@@ -6,7 +6,7 @@ import About from './Pages/About'
 import Projects from './Pages/Projects'
 import Services from './Pages/Services'
 import Contact from './Pages/Contact'
-// import Footer from './Components/Footer'
+import Footer from './Components/Footer'
 import ConnectMe from './Components/ConnectMe'
 
 const App = () => {
@@ -24,7 +24,7 @@ const App = () => {
       <Route path='/connectMe' element={<ConnectMe/>} />
       
      </Routes>
-     {/* <Footer/> */}
+     <Footer/>
   
     </div>
   )
