@@ -1,7 +1,7 @@
 import React from 'react'
-import { FaFacebook, FaSquareTwitter, FaInstagram } from "react-icons/fa6";
-import { CiLinkedin } from "react-icons/ci";
-import { Link } from 'react-router-dom';
+// import { FaFacebook, FaSquareTwitter, FaInstagram } from "react-icons/fa6";
+// import { CiLinkedin } from "react-icons/ci";
+// import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -163,6 +163,7 @@ const Footer = () => {
 //     </div>
 //   </div>
 // </div>
+
 <div></div>
   )
 }
