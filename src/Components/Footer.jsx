@@ -122,7 +122,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className=" lg:col-span-2 md:col-span-4 col-span-7">
+        <div className=" lg:col-span-2 md:col-span-4 col-span-4">
           <h5 className=" tracking-wide text-gray-100 font-semibold">
             <p className="">
               Sign up and receive the latest tips via email.
