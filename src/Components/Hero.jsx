@@ -27,7 +27,7 @@ const Hero = () => {
     </div>
     </div>
 
-<div className=' md:flex md:justify-center md:items-center md:space-x-16 justify-items-center'>
+<div className=' md:flex md:justify-center md:items-center md:space-x-16 justify-items-center mb-[6rem]'>
       <div className='  w-[20rem] p-2 rounded-lg items-center flex mb-5  bg-gray-600 my-2'>
        <p className='hover:text-gray-400/90 ml-3 text-gray-200'>Resume</p>
        <button className=' cursor-pointer text-gray-100 bg-gradient-to-r
