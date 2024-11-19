@@ -9,6 +9,7 @@ import Contact from './Pages/Contact'
 import Footer from './Components/Footer'
 import ConnectMe from './Components/ConnectMe'
 
+
 const App = () => {
   return (
     <div className='bg-black sm:px[5vw] lg:[9vw]'>
@@ -22,6 +23,7 @@ const App = () => {
       <Route path='/services' element={<Services/>} />
       <Route path='/contact' element={<Contact/>} />
       <Route path='/connectMe' element={<ConnectMe/>} />
+
       
      </Routes>
      <Footer/>

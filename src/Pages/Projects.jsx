@@ -8,32 +8,37 @@ import bookMSImage from "../assets/admin-dashboard.png";
 const projects = [
   {
     id: 1,
-    name: "Login Form",
-    technologies: "Reactjs Tailwindcss",
+    name: "Login Form Validation",
+    technologies: "Reactjs ",
     image: 'https://t4.ftcdn.net/jpg/04/08/91/77/360_F_408917733_WuJGcub0icxaQ7P266wMFK1oCWoB5fZR.jpg',
     github: "https://github.com/WebDev-47/Login-formtest",
+    view: 'https://loginformvalidation.vercel.app/'
   },
   {
     id: 2,
-    name: "E-commerce website",
+    name: "e-Commerce Website",
     technologies: "React js",
     image: 'https://media.istockphoto.com/id/1428709516/photo/shopping-online-woman-hand-online-shopping-on-laptop-computer-with-virtual-graphic-icon.jpg?s=612x612&w=0&k=20&c=ROAncmFL4lbSQdU4VOhyXu-43ngzfEqHE5ZZAw5FtYk=',
     github: "https://github.com/WebDev-47/Webzn",
+    view: 'https://forevershoppingwebsite.vercel.app/'
   },
   {
     id: 3,
     name: "Portfolio",
-    technologies: "Reactjs Tailwindcss",
+    technologies: "Reactjs ",
     image: 'https://media.licdn.com/dms/image/D4D12AQEZths38-N2dg/article-cover_image-shrink_720_1280/0/1709734306401?e=2147483647&v=beta&t=9l7pK3lRN00IcbwvUvxg2j7JEr-jlup2SRWAGTgvLCk',
     github: "https://github.com/WebDev-47/DevCel-Portfolio",
+    view: 'https://dev-cel-portfolio.vercel.app/'
   },
   {
     id: 4,
     name: "Portfolio II",
-    technologies: "Reactjs, Tailwindcss",
+    technologies: "Reactjs,",
     image: "https://img.lovepik.com/photo/45015/7638.jpg_wh860.jpg",
-    github: "https://github.com/WebDev-47/Portfolio-II"
-  }
+    github: "https://github.com/WebDev-47/Portfolio-II",
+    view: 'https://myportfolio-livid-alpha.vercel.app/'
+  },
+  
 ];
 
 const Projects = () => {
@@ -61,12 +66,19 @@ const Projects = () => {
             <a
               href={projects.github}
               className="inline-block bg-gradient-to-r 
-          from-green-400 to-blue-500 text-white px-4 py-2 rounded-full"
+          from-green-400 to-blue-500 text-white px-4 py-2 rounded-full hover:text-gray-300/90"
               target="_blank"
               rel="noopener noreferrer"
             >
               GitHub
             </a>
+            <a 
+            href={projects.view}
+            className="inline-block bg-gradient-to-r 
+            from-green-400 to-blue-500 text-white px-4 py-2 rounded-full absolute right-7 hover:text-gray-300/90"
+                target="_blank"
+                rel="noopener noreferrer"
+            >Website</a>
           </div>
         ))}
       </div>
